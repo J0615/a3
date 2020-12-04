@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <title>URL Shortener</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+</head>
+<body>
+<main>
+    <section class="form-section-edit">
+        <h1 class="page-title-edit">Edit Page</h1>
+        <h5>Input both short url and new url for edit<br/> Only short url for delete</h5>
+        <form class="url-form-edit">
+            <input autofocus class="url-input-edit-short" name="url"
+                   placeholder="Input shortened URL" required type="url">
+
+            <input autofocus class="url-input-edit-long" name="url"
+                   placeholder="Input long URL" required type="url">
+
+
+            <button class="submit-button-edit" type="submit" id="submit1">Edit</button>
+            <button class="submit-button-delete" type="submit" id="submit2">Delete</button>
+        </form>
+    </section>
+
+    <section class="result-section-edit">
+        <form class="url-form-new">
+
+        </form>
+    </section>
+
+
+</main>
+
+<script src="edit.js"></script>
+</body>
+</html>
+
